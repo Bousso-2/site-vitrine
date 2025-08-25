@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire Connexion & Inscription</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Formulaire de Connexion -->
+    <div class="form-box">
+      <h2>Connexion</h2>
+      <form>
+        <label for="login-email">Email</label>
+        <input type="email" id="login-email" placeholder="Entrez votre email" required>
+        
+        <label for="login-password">Mot de passe</label>
+        <input type="password" id="login-password" placeholder="Entrez votre mot de passe" required>
+        
+        <button type="submit">Se connecter</button>
+        <p>Pas encore inscrit ? <a href="#">Créer un compte</a></p>
+      </form>
+    </div>
+
+    <!-- Formulaire d'Inscription -->
+    <div class="form-box">
+      <h2>Inscription</h2>
+      <form>
+        <label for="signup-name">Nom complet</label>
+        <input type="text" id="signup-name" placeholder="Votre nom complet" required>
+        
+        <label for="signup-email">Email</label>
+        <input type="email" id="signup-email" placeholder="Votre email" required>
+        
+        <label for="signup-password">Mot de passe</label>
+        <input type="password" id="signup-password" placeholder="Créer un mot de passe" required>
+        
+        <label for="signup-confirm">Confirmer le mot de passe</label>
+        <input type="password" id="signup-confirm" placeholder="Confirmez le mot de passe" required>
+        
+        <button type="submit">S'inscrire</button>
+        <p>Déjà inscrit ? <a href="#">Se connecter</a></p>
+      </form>
+    </div>
+
+  </div>
+</body>
+</html>
